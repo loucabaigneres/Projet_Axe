@@ -1,0 +1,61 @@
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text-white);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-white);
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-handle);
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-white);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-white);
+}
+
+#quit {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-handle);
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    h4 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}

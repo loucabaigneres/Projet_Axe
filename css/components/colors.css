@@ -1,0 +1,60 @@
+:root {
+    /* Background général de la page */
+    --background-first: #321c4d;
+    --background-second: #120f17;
+
+    /* Background de différents éléments (header, tags...) */
+    --background-dark: rgba(0, 0, 0, 0.3);
+
+    /* Background dédié à l'hover */
+    --background-light: rgba(255, 255, 255, 0.1);
+
+    /* Background des publications */
+    --background-publication: linear-gradient(
+        114.29deg,
+        rgba(48, 50, 74, 0.4) 0%,
+        rgba(32, 33, 49, 0.4) 100%
+    );
+
+    /* Background de la sidebar et du modal de publication */
+    --background-elements: linear-gradient(
+        138.59deg,
+        #4d4072 0%,
+        #382655 57.57%
+    );
+
+    /* Couleurs de la sidebar */
+    --scrollbar-thumb: #4d4072;
+    --scrollbar-track: #382655;
+
+    /* Background bouton retour en arrière */
+    --background-button: #5b5e9d;
+
+    /* Noir pur */
+    --black: rgba(0, 0, 0);
+
+    /* Blanc pur */
+    --white: rgba(255, 255, 255);
+
+    /* Couleur des textes */
+    --text-white: rgba(255, 255, 255, 0.9);
+
+    /* Couleur des textes handle */
+    --text-handle: rgba(255, 255, 255, 0.6);
+
+    /* Couleurs des tags */
+    --tag-color-0: #25476f;
+    --tag-color-1: #6f2525;
+    --tag-color-2: #4a256f;
+    --tag-color-3: #2b6f25;
+    --tag-color-4: #6f253b;
+    --tag-color-5: #25436f;
+    --tag-color-6: #57256f;
+    --tag-color-7: #6f3725;
+    --tag-color-8: #41256f;
+    --tag-color-9: #6f5f25;
+    --tag-color-10: #256f6b;
+
+    /* Nothing */
+    --nothing: rgba(0, 0, 0, 0);
+}
