@@ -1,0 +1,48 @@
+.form-recherche {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    background: none;
+    color: var(--text-white);
+    border: none;
+    outline: none;
+}
+
+textarea {
+    background: var(--background-dark);
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+    color: var(--text-white);
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: var(--text-handle);
+}
+
+@media screen and (max-width: 768px) {
+    input[type="text"] {
+        width: 90%;
+        height: 50px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: var(--background-dark);
+        box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    textarea {
+        height: 280px;
+    }
+}

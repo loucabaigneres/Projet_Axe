@@ -1,0 +1,41 @@
+button {
+    background: var(--background-dark);
+    color: var(--text-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    max-height: 32px;
+
+    color: var(--white);
+    border-radius: 8px;
+
+    outline: none;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.2);
+}
+
+.recherche-button {
+    background: var(--nothing);
+    padding: 0;
+}
+
+input[type="submit"] {
+    background: var(--background-dark);
+    color: var(--text-white);
+
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    outline: none;
+    border: none;
+}
