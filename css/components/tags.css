@@ -1,0 +1,103 @@
+.tags {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.tag {
+    max-width: 250px;
+    padding: 24px;
+}
+
+.modal > .tags {
+    display: flex;
+    width: 100%;
+    padding: 0 0 8px 0;
+    overflow-x: scroll;
+}
+
+.modal > .tags > .tag {
+    padding: 16px;
+}
+
+.publication-content > .tag {
+    padding: 6px 10px;
+}
+
+select {
+    display: none;
+}
+
+.tag-0 {
+    background-color: var(--tag-color-0);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    max-width: 500px;
+}
+
+.tag-1 {
+    background-color: var(--tag-color-1);
+    display: var(--tag-1, flex);
+}
+
+.tag-2 {
+    background-color: var(--tag-color-2);
+    display: var(--tag-2, flex);
+}
+
+.tag-3 {
+    background-color: var(--tag-color-3);
+    display: var(--tag-3, flex);
+}
+
+.tag-4 {
+    background-color: var(--tag-color-4);
+    display: var(--tag-4, flex);
+}
+
+.tag-5 {
+    background-color: var(--tag-color-5);
+    display: var(--tag-5, flex);
+}
+
+.tag-6 {
+    background-color: var(--tag-color-6);
+    display: var(--tag-6, flex);
+}
+
+.tag-7 {
+    background-color: var(--tag-color-7);
+    display: var(--tag-7, flex);
+}
+
+.tag-8 {
+    background-color: var(--tag-color-8);
+    display: var(--tag-8, flex);
+}
+
+.tag-9 {
+    background-color: var(--tag-color-9);
+    display: var(--tag-9, flex);
+}
+
+.tag-10 {
+    background-color: var(--tag-color-10);
+    display: var(--tag-10, flex);
+}
+
+@media screen and (max-width: 768px) {
+    .tags {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding: 12px 8px;
+    }
+
+    .tag {
+        padding: 12px;
+    }
+}

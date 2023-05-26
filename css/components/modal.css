@@ -1,0 +1,129 @@
+#modal-button {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: var(--background-button);
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    cursor: pointer;
+    z-index: 8;
+}
+
+#modal-button:hover {
+    filter: brightness(1.1);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    transition: 2s;
+}
+
+.modal-overlay.hidden {
+    display: none;
+}
+
+.modal {
+    background: var(--background-elements);
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+    padding: 32px;
+    width: 35%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.modal-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#not-distribute {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.white-bar {
+    background: var(--white);
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.form-post {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#distribute {
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: not-allowed;
+}
+
+/* form > .upload-file {
+    align-self: flex-start;
+} */
+
+/* .add-file {
+    width: 280px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-file > div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+} */
+
+@media screen and (max-width: 768px) {
+    #modal-button {
+        bottom: 80px;
+        width: 60px;
+        border-radius: 30px;
+    }
+
+    #modal-button:hover {
+        filter: brightness(1);
+    }
+
+    .modal {
+        width: 90%;
+        gap: 12px;
+    }
+}
