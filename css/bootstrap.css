@@ -1,0 +1,40 @@
+@import url(./components/colors.css);
+
+body {
+    background: linear-gradient(
+        167.95deg,
+        var(--background-first) 7.64%,
+        var(--background-second) 87.85%
+    ) !important;
+
+    color: var(--text-white) !important;
+}
+
+form > div {
+    box-shadow: 0px 8px 32px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px) saturate(80%);
+    background-color: rgba(17, 25, 40, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 24px;
+}
+
+button {
+    padding: 12px 0;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: #763ad4;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #983ac0 0%, #773ad2 100%);
+    transform: scale(1.025);
+}
+
+button:active {
+    transform: scale(0.95);
+}
